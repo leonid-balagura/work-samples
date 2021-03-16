@@ -356,7 +356,7 @@ $(function () {
     return val / 16 + "em";
   }
 
-  var lottery = JSON.parse(localStorage["Lottery"] || "{}");
+  var lottery = JSON.parse(localStorage["Lottery2"] || "{}");
 
   if ($.isEmptyObject(lottery)) {
     lottery = new Lottery();
@@ -428,7 +428,7 @@ $(function () {
       }, 500);
     });
 
-    localStorage.Lottery = JSON.stringify(lottery.localStorage && lottery);
+    localStorage.Lottery2 = JSON.stringify(lottery.localStorage && lottery);
   });
 
   $(".product-congrats-discount").on(animationend, function () {

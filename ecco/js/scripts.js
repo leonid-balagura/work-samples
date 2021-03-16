@@ -223,7 +223,7 @@ $(function () {
       lotteryBtnS: ".lotteryBtn",
     };
 
-    var lotteryLS = JSON.parse(localStorage["Lottery"] || "{}");
+    var lotteryLS = JSON.parse(localStorage["Lottery3"] || "{}");
 
     if ($.isEmptyObject(lotteryLS)) {
       $.extend(_, defaults, settings);
@@ -272,7 +272,7 @@ $(function () {
 
         _.run();
 
-        localStorage.Lottery = JSON.stringify(_.localStorage && _);
+        localStorage.Lottery3 = JSON.stringify(_.localStorage && _);
       });
     },
 
