@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- <base href="/"> -->
+
+  <title>Arom - City</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#333">
+  <!-- Custom Browsers Color End -->
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <!-- Custom HTML -->
+
+<!-- header-begins -->
+
+<header>
+
+  <div class="main-nav__wrap">
+    <div class="container main-nav-container">
+
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/general/logo.png" alt="" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="main-nav__wrapper">
+      <ul class="main-nav">
+        <li class="main-nav__item"><a href="category.html">Женские духи</a></li>
+        <li class="main-nav__item"><a href="category.html">Мужские духи</a></li>
+        <li class="main-nav__item dropdown">
+          <a href="category.html">Бренды<i class="fa fa-angle-down fa-fw"></i></a>
+          <ul class="sub-nav">
+            <span class="space-filler"></span>
+            <li><a href="category.html">Chanel</a></li>
+            <li><a href="category.html">Dolce&Gabbana</a></li>
+            <li><a href="category.html">ChGiorgio Armanieckout</a></li>
+            <li><a href="category.html">Lanvin</a></li>
+            <li><a href="category.html">Christian Dior</a></li>
+            <li><a href="category.html">Carolina Herrera</a></li>
+            <li><a href="category.html">Givenchy</a></li>
+            <li><a href="category.html">Versace</a></li>
+            <li><a href="category.html">Chanel</a></li>
+            <li><a href="category.html">Dolce&Gabbana</a></li>
+           </ul>
+        </li>
+        <li class="main-nav__item"><a href="promotion.html">Акции</a></li>
+        <li class="main-nav__item"><a href="delivery.html">Доставка</a></li>
+        <li class="main-nav__item"><a href="contact.html">Контакты</a></li>
+        <li class="main-nav__item"><a href="review.html">Отзывы</a></li>
+      </ul>
+      </div>
+
+      <a href="javascript:void(0);" class="main-nav-toggle"><span></span></a>
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="top-line">
+
+      <div class="opening-hours">
+        <div class="opening-hours__mode">Режим работы:</div>
+        <div class="opening-hours__text">
+          <span>Онлайн круглосуточно</span>
+          <span>Call-center с 9:00 до 21:00</span>
+        </div>
+      </div>
+
+      <div class="controls-phones">
+
+        <div class="controls">
+          <div class="search" id="search">
+            <input type="text" name="search" placeholder="Поиск по сайту...">
+            <button type="button"><i class="fa fa-search"></i></button>
+          </div>
+          <a href="#callback-popup" class="g-btn g-btn--low g-btn--callback callback-show-up">
+            <i class="phone-icon phone-icon--white"></i><span>ОБРАТНЫЙ ЗВОНОК</span>
+          </a>
+          <a href="#cart-popup" class="g-btn g-btn--low g-btn--cart cart-show-up">
+            <i class="basket-cart-icon"><span class="cart-total-number">3</span></i>
+            <span class="cart-total">Корзина пуста</span>
+          </a>
+          <!-- <a href="#cart-popup" class="g-btn g-btn--low g-btn--cart cart-show-up active">
+            <i class="basket-cart-icon"><span class="cart-total-number">3</span></i>
+            <span class="cart-total">3 200 грн.</span>
+          </a> -->
+        </div>
+
+        <div class="phones phones__top-line">
+          <a href="tel:0950041553" class="phone">
+            <i class="phone-icon phone-icon--black"></i>(095) 00-41-553
+          </a>
+          <a href="tel:0678141693" class="phone">
+            <i class="phone-icon phone-icon--black"></i>(067) 81-41-693
+          </a>
+          <a href="tel:0639866708" class="phone">
+            <i class="phone-icon phone-icon--black"></i>(063) 98-66-708
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="banner">
+
+      <div class="timer"></div>
+
+      <div class="banner__items">
+        <div class="banner__item">
+          <div class="banner__item-icon">
+            <img src="img/general/banner-delivery-icon.png" alt="" class="img-fluid">
+          </div>
+          <div class="banner__item-text">
+            <div class="banner__item-text-title">Бесплатная доставка</div>
+            <div class="banner__item-text-descr">При заказе от 2х единиц любых товаров</div>
+          </div>
+        </div>
+        <div class="banner__item">
+          <div class="banner__item-icon">
+            <img src="img/general/banner-payment-icon.png" alt="" class="img-fluid">
+          </div>
+          <div class="banner__item-text">
+            <div class="banner__item-text-title">Оплата при получении</div>
+            <div class="banner__item-text-descr">Никаких дополнительных платежей</div>
+          </div>
+        </div>
+        <div class="banner__item">
+          <div class="banner__item-icon">
+            <img src="img/general/banner-trust-icon.png" alt="" class="img-fluid">
+          </div>
+          <div class="banner__item-text">
+            <div class="banner__item-text-title">Нам доверяют</div>
+            <div class="banner__item-text-descr">Более 96 000 клиентов</div>
+          </div>
+        </div>
+        <div class="banner__item">
+          <div class="banner__item-icon">
+            <img src="img/general/banner-discount-icon.png" alt="" class="img-fluid">
+          </div>
+          <div class="banner__item-text">
+            <div class="banner__item-text-title">Скидки</div>
+            <div class="banner__item-text-descr">Регулярные акции <a href="promotion.html" class="discount-details">Подробнее</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</header>
+
+<!-- header-ended -->
+
+<!-- breadcrumbs-begins -->
+
+<div class="breadcrumbs">
+  <div class="container">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="javascript:void(0);">Главная</a></li>
+      <li class="breadcrumb-item"><a href="javascript:void(0);">Женские духи</a></li>
+      <li class="breadcrumb-item"><a href="javascript:void(0);">Versace Versace</a></li>
+      <li class="breadcrumb-item"><a href="javascript:void(0);">Bright Crystal</a></li>
+      <li class="breadcrumb-item active">Туалетная вода 90 ml</li>
+    </ul>
+  </div>
+</div>
+
+<!-- breadcrumbs-ended -->
+
+<!-- delivery-begins -->
+
+<div class="delivery-payment">
+<div class="container flex-container">
+
+  <div class="side-container">
+
+    <div class="side-container-title">ВЫ СМОТРЕЛИ</div>
+
+    <div class="product">
+      <div class="product__sale">
+        <span class="product__sale-text">sale</span>
+      </div>
+      <div class="product__discount discount-75">
+        <span class="product__discount-text">-50%</span>
+      </div>
+      <div class="product__img">
+        <a href="product.html">
+          <img src="img/content/products/woman/01.png" alt="">
+          <!-- <img src="img/general/stock-line-img-1.jpg" alt="" class="img-fluid"> -->
+        </a>
+      </div>
+      <div class="product__title">Dolce&Gabbana 3 L'Imperatrice</div>
+      <div class="product__title-descr">Туалетная вода 100ml</div>
+      <div class="product__rating">
+        <span id="" class="rating" data-val="3.83" data-stars='5' data-input=".rating-value" data-change="false">
+          <input type="hidden" name="" class="rating-value" size="5">
+        </span>
+        <span class="rating-value-number">3.83</span>
+      </div>
+      <div class="product__price">
+        <span class="old-price">1500грн</span>
+        <span class="new-price">299грн</span>
+      </div>
+      <a href="#cart-popup" class="g-btn g-btn--product add-to-cart"><i class="product-cart-icon"></i>Купить со скидкой</a>
+    </div>
+
+    <div class="product">
+      <div class="product__sale">
+        <span class="product__sale-text">sale</span>
+      </div>
+      <div class="product__discount discount-75">
+        <span class="product__discount-text">-50%</span>
+      </div>
+      <div class="product__img">
+        <a href="product.html">
+          <img src="img/content/products/woman/01.png" alt="">
+          <!-- <img src="img/general/stock-line-img-1.jpg" alt="" class="img-fluid"> -->
+        </a>
+      </div>
+      <div class="product__title">Dolce&Gabbana 3 L'Imperatrice</div>
+      <div class="product__title-descr">Туалетная вода 100ml</div>
+      <div class="product__rating">
+        <span id="" class="rating" data-val="3.83" data-stars='5' data-input=".rating-value" data-change="false">
+          <input type="hidden" name="" class="rating-value" size="5">
+        </span>
+        <span class="rating-value-number">3.83</span>
+      </div>
+      <div class="product__price">
+        <span class="old-price">1500грн</span>
+        <span class="new-price">299грн</span>
+      </div>
+      <a href="#cart-popup" class="g-btn g-btn--product add-to-cart"><i class="product-cart-icon"></i>Купить со скидкой</a>
+    </div>
+
+  </div>
+
+  <div class="main-container">
+
+    <h2 class="section-title delivery-title"><span class="section-title-fixed">Доставка</span></h2>
+
+    <div class="delivery">
+      <div class="delivery-payment-title">Бесплатная по всей Украине</div>
+      <p>Доставка осуществляется компанией Новая Почта до выбранного Вами отделения. <b>При заказе от 2-х единиц</b> и более доставка <b>совершенно бесплатная.</b></p>
+      <p>После оформления заказа, любым удобным для Вас способом, наши менеджеры свяжутся с Вами для уточнения места доставки, а также даты доставки. Обычно, доставка <b>осуществляется в течении 1-3 дней</b> после оформления заказа.</p>
+      <p>Отправка заказов осуществляется два раза в день: в 12:00 и в 18:00; с понедельника по субботу. Заказы оформленные в воскресенье - будут отправлены в понедельник.</p>
+      <p><b>Минимальной суммы заказа нет.</b></p>
+      <p>При заказе одной единицы товара доставка - 40 грн.</p>
+    </div>
+
+    <h2 class="section-title delivery-title"><span class="section-title-fixed">Оплата</span></h2>
+
+    <div class="payment">
+      <div class="delivery-payment-title">Оплата осуществляется наложенным платежом при получении заказа</div>
+      <p>Перед отправкой весь ассортимент товара <b>проверяется и упаковывается</b> для безопасной транспортировки. В связи с этим, мы абсолютно уверены в качестве получаемого Вами аромата. Кроме этого, Вы можете лично осмотреть Ваши духи, и только после этого совершать оплату в отделении Новой почты.</p>
+      <p>При этом, никаких скрытых платежей, оплаты услуг транспортной компании, платы за перевод денег, комиссий и прочее! <b>Вы оплачиваете только сумму заказа!</b></p>
+    </div>
+
+    <div class="delivery-peyment-items">
+      <div class="delivery-peyment-item">
+        <div class="dpi__icon"><img src="img/general/delivery-request.png" alt="" class="img-fluid"></div>
+        <div class="dpi__title">Оформление заказа</div>
+        <div class="dpi__descr">Вы оформляете заявку по телефону или на сайте</div>
+      </div>
+      <div class="delivery-peyment-item">
+        <div class="dpi__icon"><img src="img/general/delivery-approvement.png" alt="" class="img-fluid"></div>
+        <div class="dpi__title">Подтверждение заказа</div>
+        <div class="dpi__descr">Менеджер подтверждает с Вами заявку</div>
+      </div>
+      <div class="delivery-peyment-item">
+        <div class="dpi__icon"><img src="img/general/delivery-dispatch.png" alt="" class="img-fluid"></div>
+        <div class="dpi__title">Доставка</div>
+        <div class="dpi__descr">Мы доставим вашу посылку в течении 1-2 дней</div>
+      </div>
+      <div class="delivery-peyment-item">
+        <div class="dpi__icon"><img src="img/general/delivery-payment.png" alt="" class="img-fluid"></div>
+        <div class="dpi__title">Оплата при получении</div>
+        <div class="dpi__descr">Вы подтверждаете посылку и только потом оплачиваете</div>
+      </div>
+      <div class="delivery-peyment-item">
+        <div class="dpi__icon"><img src="img/general/delivery-enjoying.png" alt="" class="img-fluid"></div>
+        <div class="dpi__title">Наслаждайтесь покупкой</div>
+        <div class="dpi__descr">Хорошего настроения</div>
+      </div>
+    </div>
+
+    <div class="delivery-condition">
+      <p>Доставка осуществляется в города, где есть отделения Новой почты.</p>
+      <p>Выбрать ближайший склад Вы можете на сайте новой почты:</p>
+      <a href="https://novaposhta.ua/ru/office">https://novaposhta.ua/ru/office</a>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<!-- delivery-ended -->
+
+<!-- footer-begins -->
+
+<footer>
+
+  <div class="banner-line__wrapper">
+    <div class="container banner-line-container">
+
+      <div class="banner-line__items">
+        <div class="banner-line__item">
+          <div class="banner-line__item-icon">
+            <!-- <img src="img/general/banner-delivery-icon.png" alt="" class="img-fluid"> -->
+            <i class="fa fa-truck"></i>
+          </div>
+          <div class="banner-line__item-text">Бесплатная доставка При заказе от 2х единиц любых товаров</div>
+        </div>
+        <div class="banner-line__item">
+          <div class="banner-line__item-icon">
+            <!-- <img src="img/general/banner-discount-icon.png" alt="" class="img-fluid"> -->
+            <i class="fa fa-percent"></i>
+          </div>
+          <div class="banner-line__item-text">Регулярные акции <a href="promotion.html" class="discount-details">Подробнее</a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer__content">
+    <div class="container">
+
+      <div class="footer__content-text">
+        <p>Интернет-магазин элитной парфюмерии <b>AROM-City</b> рад приветствовать Вас!</p>
+        <p>У нас Вы легко найдете именно тот парфюм, который Вас достоин! Даже самый изысканный мужской и женский стиль будет несовершенен без хорошего парфюмерного аромата. Наш-интернет магазин обещает Вам нечто особенное и притягательное, ведь у нас представлена продукция самых почитаемых парфюмерных домов в мире, таких как Chanel, Kenzo, Givenchy, Dolce&Gabbana, Dior, Versace и других знаменитых брендов.</p>
+        <p>Мы поможем Вам следовать самым последним тенденциям моды и одновременно оставаться собой, подчеркивая собственную значимость и неповторимость. Притягательный аромат качественной парфюмерии заставит оборачиваться мужчин и притянет женские взгляды. Наши продавцы-консультанты с радостью помогут сделать правильный выбор, исходя из вашего вкуса и личных предпочтений.</p>
+        <p>Наш интернет-магазин желает Вам множества приятных впечатлений и полного удовлетворения от покупок!</p>
+      </div>
+
+      <div class="footer__content-links">
+
+        <div class="footer__content-categories">
+          <span class="footer__content-links-title">Категории</span>
+          <ul>
+            <li><a href="category.html">Женские духи</a></li>
+            <li><a href="category.html">Мужские духи</a></li>
+            <li><a href="category.html">Тестеры</a></li>
+            <li><a href="category.html">Косметика</a></li>
+            <li><a href="category.html">Уценка</a></li>
+            <li><a href="category.html">FlyBra</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content-posts">
+          <span class="footer__content-links-title">Статьи</span>
+          <ul>
+            <li><a href="promotion.html">Акции</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="javascript:void(0);">Все статьи</a></li>
+          </ul>
+          <div class="footer__conter-socials">
+            <ul>
+              <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-feed"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bottom-line__wrapper">
+    <div class="container bottom-line__container">
+
+      <div class="bottom-line__text">
+        <p class="bottom-line__address">&copy; 2012-2018 Интернет магазин парфюмерии Parfum City.</p>
+        <p class="bottom-line__copyright">Все права защищены.</p>
+        <a href="#mfp-policy" class="policy-link bottom-line__policy">Пользовательское соглашение</a>
+      </div>
+
+      <div class="phones phones__bottom-line">
+        <a href="tel:0950041553" class="phone">
+          <i class="phone-icon phone-icon--white"></i>(095) 00-41-553
+        </a>
+        <a href="tel:0678141693" class="phone">
+          <i class="phone-icon phone-icon--white"></i>(067) 81-41-693
+        </a>
+        <a href="tel:0639866708" class="phone">
+          <i class="phone-icon phone-icon--white"></i>(063) 98-66-708
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+
+<!-- footer-ended -->
+
+<!-- cart-begins -->
+
+<div class="cart mfp-hide" id="cart-popup">
+
+  <div class="cart__title section-title"><span>Корзина</span></div>
+  <div class="cart__banner">Купите любые ДВА товара и мы Вам подарим ДУХИ 110мл ! Купите ТРИ и мы подарим Вам ТРИ флакона духов по 110 мл или косметику, на Ваш выбор! <a href="promotion.html">Подробнее:</a> <span class="cart__banner-promo-link">Акция 1 + 1 =</span></div>
+
+  <ul class="cart__product-list">
+    <li class="cart__product">
+      <div class="cart__product-links">
+        <div class="cart__product-img">
+          <a href="javascript:void(0);"><img src="img/content/products/woman/01.png" alt=""></a>
+        </div>
+        <div class="cart__product-title">
+          <a href="javascript:void(0);">Dolce&Gabbana 3 L'Imperatrice</a>
+        </div>
+      </div>
+      <div class="cart__product-price">195грн</div>
+      <div class="responsive-devider"></div>
+      <select name="" class="cart__product-amount">
+        <option value="1" selected>1 шт</option>
+        <option value="2">2 шт</option>
+        <option value="3">3 шт</option>
+        <option value="4">4 шт</option>
+        <option value="5">5 шт</option>
+        <option value="6">6 шт</option>
+        <option value="7">7 шт</option>
+        <option value="8">8 шт</option>
+        <option value="9">9 шт</option>
+      </select>
+      <div class="cart__product-total">595грн</div>
+      <div class="cart__product-remove"></div>
+    </li>
+    <li class="cart__product">
+      <div class="cart__product-links">
+        <div class="cart__product-img">
+          <a href="javascript:void(0);"><img src="img/content/products/woman/01.png" alt=""></a>
+        </div>
+        <div class="cart__product-title">
+          <a href="javascript:void(0);">Dolce&Gabbana 3 L'Imperatrice</a>
+        </div>
+      </div>
+      <div class="cart__product-price">195грн</div>
+      <div class="responsive-devider"></div>
+      <select name="" class="cart__product-amount">
+        <option value="1" selected>1 шт.</option>
+        <option value="2">2 шт.</option>
+        <option value="3">3 шт.</option>
+        <option value="4">4 шт.</option>
+        <option value="5">5 шт.</option>
+        <option value="6">6 шт.</option>
+        <option value="7">7 шт.</option>
+        <option value="8">8 шт.</option>
+        <option value="9">9 шт.</option>
+      </select>
+      <div class="cart__product-total">595грн</div>
+      <div class="cart__product-remove"></div>
+    </li>
+    <!-- <li><div class="cart-is-empty">В корзине пусто</div></li> -->
+  </ul>
+
+  <div class="cart__bottom">
+    <a href="javascript:void(0);" class="cart-continue">Продолжить покупки</a>
+    <div class="cart__bottom-checkout">
+      <div class="cart__total">1 170 грн</div>
+      <a href="cart.html" class="g-btn g-btn--product">Оформить заказ</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- cart-ended -->
+
+<!-- callback-begins -->
+
+<div class="callback mfp-hide" id="callback-popup">
+
+  <div class="callback__title">Заказ обратного звонка</div>
+
+  <form action="" class="callback__form">
+    <label for="name_first">Имя</label>
+    <input type="text" name="name_first" placeholder="Введите имя" class="g-input">
+    <label for="phone">Телефон *</label>
+    <input type="text" name="phone" placeholder="Номер телефона" class="g-input">
+    <input type="submit" class="g-btn" value="Заказать">
+  </form>
+
+</div>
+
+<!-- callback-ended -->
+
+<!-- policy-begins -->
+
+<div class="mfp-policy mfp-hide" id="mfp-policy">
+  <h2>Политика конфиденциальности</h2>
+  <p>Наш интернет-магазин уважительно относится к правам клиента. Соблюдается строгая конфиденциальность при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи.</p>
+  <p>Согласием на обработку данных клиента исключительно с целью оказания услуг является размещение заказа на сайте.</p>
+  <p>К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество; сведения о рождении; имущественное, семейное положение; личные контакты (телефон, электронная почта) и прочие сведения, которые перечислены в Законе «О персональных данных».</p>
+  <p>Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется удаление с сайта всех персональных данных в трёхдневный срок в рабочее время. Подобный отказ клиент может оформить простым электронным письмом на адрес, указанный на странице нашего сайта.</p>
+</div>
+
+<!-- policy-ended -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/rating-star.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>
